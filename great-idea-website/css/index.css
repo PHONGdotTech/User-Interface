@@ -63,4 +63,108 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	max-width:100%;
+  }
+
 /* Your code starts here! */
+/* *******************************
+******************************* */
+
+h1 {
+	font-size: 80px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+section, header, footer, container {
+	display: block;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+}
+
+header nav {
+	width: 80%;
+	position: fixed;
+	background: skyblue;
+	display: block;
+	text-align: center;
+	border-bottom: black solid 1px;
+}
+
+header nav a{
+	color: black;
+	display: inline-block;
+	margin: 2% 5%;
+	text-decoration: none;
+	position: relative;
+}
+
+.sloganSection {
+	padding-top: 5%;
+}
+
+textSection, imgSection {
+	width: 30%;
+	margin: 2%;
+	display: inline-block;
+	text-align: center;
+}
+
+imgSection {
+	background-image: url("img/header-img.png");
+}
+
+.sloganSection .button{
+	border: solid 1px black;
+	color: black;
+	margin: 1%;
+	width: 300px;
+	height: 50px;
+	text-align: center;
+	padding: 1px 45px;
+	text-decoration: none;
+}
+
+.sloganSection .button:hover{
+	background: lightgrey;
+}
+
+.contentStuff {
+	border-top: solid black 2px;
+	border-bottom: solid black 1px;
+}
+
+.content1, .content2, .content3{
+	display:inline-block;
+	padding: 1% 0;
+}
+
+.contentStuff div section{
+	text-align: left;
+	display: inline-block;
+	width: 49%;
+}
+
+.contentStuff .content3 section{
+	text-align: left;
+	display: inline-block;
+	margin: 0 1%;
+	width: 30%;
+}
+
+.contactSection {
+	padding-top: 2%;
+	display: block;
+	text-align: left;
+}
+
+footer {
+	margin: 5%;
+}
