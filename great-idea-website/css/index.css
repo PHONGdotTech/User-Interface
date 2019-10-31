@@ -73,6 +73,9 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 /* *******************************
 ******************************* */
+container {
+	width: 900px;
+}
 
 h1 {
 	font-size: 80px;
@@ -85,25 +88,24 @@ h4 {
 section, header, footer, container {
 	display: block;
 	text-align: center;
-	width: 90%;
+	/* width: 90%; */
 	margin: auto;
 }
 
 header nav {
-	width: 80%;
+	width: 900px;
 	position: fixed;
-	background: skyblue;
+	background: linear-gradient(to bottom, #0066cc, white);
 	display: block;
 	text-align: center;
-	border-bottom: black solid 1px;
+	height: 7%;
 }
 
 header nav a{
 	color: black;
-	display: inline-block;
-	margin: 2% 5%;
+	/* display: inline-block; */
+	margin: 3%;
 	text-decoration: none;
-	position: relative;
 }
 
 .sloganSection {
@@ -111,14 +113,11 @@ header nav a{
 }
 
 textSection, imgSection {
-	width: 30%;
-	margin: 2%;
+	/* width: 30%; */
+	/* margin: 2%; */
 	display: inline-block;
 	text-align: center;
-}
-
-imgSection {
-	background-image: url("img/header-img.png");
+	margin: 5%;
 }
 
 .sloganSection .button{
@@ -139,32 +138,39 @@ imgSection {
 .contentStuff {
 	border-top: solid black 2px;
 	border-bottom: solid black 1px;
+	padding: 2% 0;
 }
 
 .content1, .content2, .content3{
 	display:inline-block;
-	padding: 1% 0;
+	padding: 3% 0;
+	width: 100%;
 }
 
-.contentStuff div section{
+.contentStuff .content1 section{
 	text-align: left;
 	display: inline-block;
-	width: 49%;
+	width: 49.8%;
+}
+
+.contentStuff img {
+	width: 100%;
 }
 
 .contentStuff .content3 section{
 	text-align: left;
 	display: inline-block;
-	margin: 0 1%;
-	width: 30%;
+	margin: 0;
+	width: 33%;
 }
 
 .contactSection {
-	padding-top: 2%;
+	padding: 2% 0;
 	display: block;
 	text-align: left;
 }
 
 footer {
-	margin: 5%;
+	padding: 3% 0;
+	background: linear-gradient(to top, #0066cc, white);
 }
